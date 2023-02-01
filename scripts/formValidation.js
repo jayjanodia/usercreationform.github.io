@@ -125,6 +125,13 @@ form.addEventListener("submit", async (event) => {
     .catch((error) => {
       console.error("Error:", error);
     });
+  /* .then((response) => {
+      if (response.status === 201) {
+        console.log("User created successfully");
+      } else {
+        console.error("Failed to create user");
+      }
+    }); */
 
   alert("User created successfully!");
 });
